@@ -1,12 +1,48 @@
-# React + Vite
+# 📰 TheDrogonNews
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern news portal built with React 19, Tailwind CSS, and Firebase.  
+Get breaking news with smooth UI, live scrolling headlines, category-based filtering, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Website
 
-## Expanding the ESLint configuration
+👉 [Visit TheDrogonNews Live](https://unique-vacherin-dd18bc.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🧭 React Router v7 based routing
+- 🔐 Firebase Authentication (Email/Google login)
+- 📰 News listing by category
+- 🚀 Fast scrollable marquee headlines (`react-fast-marquee`)
+- 📅 Date formatting using `date-fns`
+- 💅 Fully responsive UI using Tailwind CSS
+- 🌗 Dark/Light mode ready (optional)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Version    |
+|------------------|------------|
+| [React](https://react.dev/)              | ^19.0.0    |
+| [React DOM](https://react.dev/)         | ^19.0.0    |
+| [React Router](https://reactrouter.com/) | ^7.5.3     |
+| [Tailwind CSS](https://tailwindcss.com/) | ^4.1.5     |
+| [Vite](https://vitejs.dev/) + Tailwind Plugin | ^4.1.5     |
+| [Firebase](https://firebase.google.com/) | ^11.6.1    |
+| [React Icons](https://react-icons.github.io/react-icons/) | ^5.5.0    |
+| [react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee) | ^1.6.5 |
+| [date-fns](https://date-fns.org/)        | ^4.1.0     |
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+git clone https://github.com/Abdulal-Roman09/TheDrogonNews.git
+cd TheDrogonNews
+npm install
+npm run dev
