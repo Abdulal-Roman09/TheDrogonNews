@@ -1,0 +1,21 @@
+Firebase Console এ প্রজেক্ট তৈরি করো
+
+Email/Password Authentication Enable করো
+
+Firebase Config Code কপি করে Firebase.config.js ফাইলে বসাও
+
+Firebase SDK ইনস্টল করো:
+
+
+AuthProvider ফাইল তৈরি করো (AuthContext সহ)
+
+getAuth, createUserWithEmailAndPassword, onAuthStateChanged, signOut ব্যবহার করো
+
+AuthProvider কে main.jsx বা App.jsx এ wrap করো
+
+useContext(AuthContext) দিয়ে Auth ফাংশনগুলো অ্যাক্সেস করো
+
+Signup ফর্মে createUser() ব্যবহার করো
+
+Logout বাটনে logOut() ব্যবহার করো
+
